@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/wepapp.css">
+	<link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="header"> <span style="font-size:30px;cursor:pointer;color:white;position:relative;left:10px;top:4px" onclick="openNav()">&#9776;</span> 
+	</div>
+	<div class="breadcrumb">
+		<ul>
+			<li>
+			    <a href="">
+				  <span><i class="fa fa-tasks"></i></span>
+				</a>
+		    </li>
+		    <li>
+		    	<a href="#">
+		    		<span><i class="fa fa-twitter"></i></span>
+		      	</a>
+		    </li>
+		    <li>
+		    	<a href="#">
+		    		<span><i class="fa fa-facebook"></i></span>
+		       	</a>
+		    </li>
+		    <li>
+		    	<a href="#">
+		    		<span><i class="fa fa-instagram"></i></span>
+		       	</a>
+		    </li>
+		    <li>
+		    	<a href="#">
+		    		<span><i class="fa fa-wrench"></i></span>
+		       	</a>
+		    </li>
+		</ul>
+	</div>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+<section id="cd-timeline" class="cd-container">
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-content">
+				<div class="cd-timeline-img cd-picture">
+					<img src="images/Tulips.jpg" alt="Picture">
+				</div> <!-- cd-timeline-img -->
+
+				<h2>Title of section 1</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio,</p>
+				<a href="#0" class="cd-read-more">Read more</a>
+				<span class="cd-date">Jan 14</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-content">
+				<div class="cd-timeline-img cd-movie">
+					<img src="images/Tulips.jpg" alt="Movie">
+				</div> <!-- cd-timeline-img -->
+
+				<h2>Title of section 2</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident</p>
+				<a href="#0" class="cd-read-more">Read more</a>
+				<span class="cd-date">Jan 18</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->				
+	</section> <!-- cd-timeline -->
+<div class="textbar">
+	<form class="form-wrapper cf">
+        <input type="text" placeholder="Type...." required>
+        <button type="submit">Send</button>
+    </form>
+</div>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</body>
+</html>
